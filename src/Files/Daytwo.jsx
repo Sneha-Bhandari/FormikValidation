@@ -5,6 +5,7 @@ import { MdOutlineBrowserUpdated } from "react-icons/md";
 import { toast, ToastContainer } from "react-toastify";
 import { FaSpinner } from "react-icons/fa";
 
+// loading 
 const Daytwo = () => {
   const Forms = [
     {

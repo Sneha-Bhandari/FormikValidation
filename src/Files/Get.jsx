@@ -5,7 +5,7 @@ const Dayfour = () => {
   const [courses, setCourses] = useState([]);
 
   const image="1.jpg";
-
+// get method (read)
   const getCourse = () => {
     axios
       .get("https://hubmainback.hubit.com.np/courses")
@@ -15,7 +15,7 @@ const Dayfour = () => {
         setCourses([...result.data.result]);
       })
       .catch((error) => {
-        console.log(error);
+        console.log(error)
       });
   };
 
